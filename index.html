@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Airlines!!</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Airlines!!</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .box {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-text">PUERTO RICO AIRLINES</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FLIGHTS</a></li>
+        <li><a href="#">SUPPORT</a></li>
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  </body>
+  <div class="container">
+    <div class="box">
+      <h2>Flights</h2>
+      <button>Lets Go</button>
+    </div>
+    <div class="box">
+      <h2>Group Trips</h2>
+      <button>Group Rates</button>
+    </div>
+    <div class="box">
+      <h2>Discount Flights</h2>
+      <button>Jump in</button>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>About Us</h2>
+    <button>Learn More</button>
+  </div>
+</body>
 </html>
