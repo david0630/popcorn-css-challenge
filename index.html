@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Airlines!!</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Airlines!!</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .box {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-text">PUERTO RICO AIRLINES</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FLIGHTS</a></li>
+        <li><a href="#">SUPPORT</a></li>
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  </body>
+  <div class="container">
+    <div class="box">
+      <h2>Flights</h2>
+      <p>Lets fly today!</p>
+      <button>Lets Go</button>
+    </div>
+    <div class="box">
+      <h2>Group Trips</h2>
+      <p>Choose your group</p>
+      <button>Group Rates</button>
+    </div>
+    <div class="box">
+      <h2>Discount Flights</h2>
+      <p>Look for deals!</p>
+      <button>Jump in</button>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>About Us</h2>
+    <p>We have a long and rich history. Come learn about use and our <br>
+      passion to help you fly!
+    </p>
+    <button>Learn More</button>
+  </div>
+</body>
 </html>
